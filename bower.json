@@ -1,0 +1,28 @@
+{
+  "name": "PruebaCuponaticFront",
+  "authors": [
+    "Miguel Nunez <miguelnunezvargas@gmail.com>"
+  ],
+  "description": "Front end para consumir app en symfony2",
+  "main": "index.html",
+  "license": "MIT",
+  "homepage": "",
+  "dependencies": {
+    "angular": "1.4.14",
+    "angular-ui-router": "~0.2",
+    "bootstrap": "~3",
+    "lodash": "~3.10.1",
+    "angular-resource": "~1.4.14",
+    "angular-cookies": "~1.4.14"
+  },
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "resolutions": {
+    "angular": "1.4.14"
+  }
+}

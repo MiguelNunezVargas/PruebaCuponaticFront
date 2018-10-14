@@ -1,0 +1,16 @@
+<h2>20 Productos más buscados</h2>
+<br/><br/>	
+<table class="table">
+	<thead>
+    <tr>
+      <th scope="col">Titulo</th>
+      <th scope="col">Keywords</th>
+    </tr>
+</thead>
+  <tbody id="resultados" ng-controller="LogsCtrl">
+	<tr ng-repeat="user in users">
+		<td>{{user.titulo}}</td>
+		<td>{{user.keywords}}</td>
+	</tr>	
+  </tbody>
+</table>

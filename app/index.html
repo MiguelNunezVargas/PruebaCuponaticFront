@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>
+<html lang="en" ng-app="cnc-myapp" class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>
+<html lang="en" ng-app="cnc-myapp" class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>
+<html lang="en" ng-app="cnc-myapp" class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html lang="en" ng-app="cnc-myapp" class="no-js"> <!--<![endif]-->
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Módulo de búsqueda de productos</title>
+    <meta name="description"
+          content="Modulo de búsqueda de productos hecho en symfony 2 + angularjs">
+    <meta name="keywords" content="symfony2, angularjs">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <!-- estilos externos -->
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css" type='text/css' media='all'>
+    <link rel="stylesheet" href="assets/css/app.css">
+
+</head>
+<body>
+    <div class="container">
+        <!--[if lt IE 7]>
+        <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a
+                href="http://browsehappy.com/">upgrade
+            your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+        <div ui-view></div>
+    </div>
+    <!-- componentes externas -->
+        <script src="bower_components/angular/angular.min.js"></script>
+        <script src="bower_components/angular-ui-router/release/angular-ui-router.min.js"></script>
+        <script src="bower_components/angular-resource/angular-resource.min.js"></script>
+        <script src="bower_components/angular-cookies/angular-cookies.min.js"></script>
+
+
+        <script src="bower_components/jquery/dist/jquery.min.js"></script>
+        <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+        <script src="bower_components/lodash/lodash.min.js"></script>
+        
+    <!-- scripts -->
+        <script src="app.js"></script>
+        <script src="routing.js"></script>
+        <script src="shared/directives.js"></script>
+        <script src="shared/filters.js"></script>
+        <script src="shared/services.js"></script>
+        <script src="shared/functions.js"></script>
+        <script src="pages/login/login.js"></script>
+        <script src="pages/home/home.js"></script>        
+        <script src="pages/product/product.js"></script>
+        <script src="pages/logs/logs.js"></script>
+</body>
+</html>
